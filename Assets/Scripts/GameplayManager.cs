@@ -84,7 +84,6 @@ public class GameplayManager : MonoBehaviour
 
     private float score;
     [SerializeField] private TMP_Text _scoreText;
-    [SerializeField] private AudioClip _pointClip;
 
     private void UpdateScore()
     {
@@ -124,7 +123,6 @@ public class GameplayManager : MonoBehaviour
 
     #region GAME_OVER
 
-    [SerializeField] private AudioClip _loseClip;
     public UnityAction GameEnd;
 
     public void GameEnded()

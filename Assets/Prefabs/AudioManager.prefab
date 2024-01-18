@@ -44,4 +44,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f40ce3692696e3542979aa46766aa4e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Lose
+    clip: {fileID: 8300000, guid: 227c57a948c929b46be8e7b034a24d3a, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Point
+    clip: {fileID: 8300000, guid: f90742d4813f57b42abeef64e419fbee, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: fa7e6b3d0d35e4e5c96705f47a47cd91, type: 3}
+    volume: 0
+    loop: 1
+    source: {fileID: 0}
